@@ -1,0 +1,15 @@
+---
+export interface Props {
+  main?: boolean;
+}
+
+const { main = false } = Astro.props;
+---
+{main?
+<h1 class="text-3xl font-bold text-nord-text-primary">
+    <slot />
+</h1> :
+<h2 class="text-xl font-semibold text-nord-text-primary">
+    <slot />
+</h2> 
+}
