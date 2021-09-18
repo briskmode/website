@@ -17,34 +17,38 @@ import Space from '../components/Space.astro';
 
 <body class="bg-nord-bg-dark">
 
-	<H main={true}>Briskmode</H>
-	<Space size="sm"/>
-	<Text>
-		We are a small indie company, building native and web apps for productivity, joy and fun. Our goal is to give people more time to live their lives the way they want, and for the brief moment of interacting with our apps, try to share love we put into making them.
-	</Text>
-	<Space size="sm"/>
-	<Text>
-		We value performance, quality, user experience and good coffee.
-	</Text>
-	
-	<Space size="lg"/>
-	
+	<div class="flex flex-col items-center">
+		<div class="flex flex-col max-w-xl py-6 px-2 md:px-6 md:py-12">
+			<H main={true}>Briskmode</H>
+			<Space size="sm"/>
+			<Text>
+				We are a small indie company, building native and web apps for productivity, joy and fun. Our goal is to give people more time to live their lives the way they want, and for the brief moment of interacting with our apps, try to share love we put into making them.
+			</Text>
+			<Space size="sm"/>
+			<Text>
+				We value performance, quality, user experience and good coffee.
+			</Text>
+			
+			<Space size="lg"/>
+			
 
 
- 	<H>Our latest project is <Link to="/">Enscript</Link></H>
-	<Space size="sm"/>
-	<Text>
-		a way to enhance and customize your note experience with <Link to="https://bear.app/">Bear</Link> via scripting.<br/>
-		Give it a shot!
-	</Text>
+			<H>Our latest project is <Link to="/">Enscript</Link></H>
+			<Space size="sm"/>
+			<Text>
+				A way to enhance and customize your note experience with <Link to="https://bear.app/">Bear</Link> via scripting.<br/>
+				Give it a shot!
+			</Text>
 
-	<Space size="lg"/>
+			<Space size="lg"/>
 
-	<H>Get in touch</H>
-	<Space size="sm"/>
-	<Text>
-		<Link to="mailto:hi@briskmode.dev">Send</Link> us an email.
-	</Text>
+			<H>Get in touch</H>
+			<Space size="sm"/>
+			<Text>
+				<Link to="mailto:hi@briskmode.dev">Send</Link> us an email.
+			</Text>
+		</div>
+	</div>
 </body>
 
 </html>

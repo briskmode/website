@@ -6,9 +6,9 @@ export interface Props {
 const { size = 'md' } = Astro.props;
 
 const sizes = {
-    "sm" : "h-1",
-    "md": "h-2", 
-    "lg": "h-4",
+    "sm" : "h-2",
+    "md": "h-4", 
+    "lg": "h-8",
 }
 
 const getHeight = (s: "sm" | "md" | "lg") => sizes[s]
