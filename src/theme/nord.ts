@@ -9,7 +9,7 @@ export const polarNight = {
     For bright ambiance designs, it is used for base elements like plain text, the text editor caret and reserved syntax characters like curly- and square brackets.
     It is rarely used for passive UI elements like borders, but might be possible to achieve a higher contrast and better visual distinction (harder/not flat) between larger components.
    */
-  nord0: '#2e3440',
+  nord0: "#2e3440",
 
   /**
    * nord1
@@ -28,7 +28,7 @@ export const polarNight = {
       For bright ambiance designs, it is used for more subtle/inconspicuous UI text elements that do not need so much visual attention.
       Other use cases are also state animations like a more brighter text color when a button is hovered, active or focused.
    */
-  nord1: '#3b4252',
+  nord1: "#3b4252",
 
   /**
    * nord2
@@ -37,7 +37,7 @@ export const polarNight = {
     For dark ambiance designs, it is used to colorize the currently active text editor line as well as selection- and text highlighting color.
     For both bright & dark ambiance designs it can also be used as an brighter variant for the same target elements like nord1.
    */
-  nord2: '#434c5e',
+  nord2: "#434c5e",
 
   /**
    * nord3
@@ -49,7 +49,7 @@ In the context of code syntax highlighting it is used for comments and invisible
 
 For bright ambiance designs, it is, next to nord1 and nord2 as darker variants, also used for the most subtle/inconspicuous UI text elements that do not need so much visual attention.
    */
-  nord3: '#4c566a',
+  nord3: "#4c566a",
 };
 
 export const snowStorm = {
@@ -68,7 +68,7 @@ For bright ambiance designs, it is used for elevated, more prominent or focused 
 It also works fine for more inconspicuous and passive elements like borders or as dropshadow between different components.
 In the context of syntax highlighting it's not used at all.
    */
-  nord4: '#d8dee9',
+  nord4: "#d8dee9",
 
   /**
    * nord5
@@ -80,7 +80,7 @@ Other use cases are also state animations like a more brighter text color when a
 
 For bright ambiance designs, it is used to colorize the currently active text editor line as well as selection- and text highlighting color.
    */
-  nord5: '#e5e9f0',
+  nord5: "#e5e9f0",
 
   /**
    * nord6
@@ -92,7 +92,7 @@ In the context of syntax highlighting it is used as text color for plain text as
 
 For bright ambiance designs, it is used as background and area coloring while it's not used for syntax highlighting at all because otherwise it would collide with the same background color.
    */
-  nord6: '#eceff4',
+  nord6: "#eceff4",
 };
 
 /**
@@ -106,7 +106,7 @@ export const frost = {
 A calm and highly contrasted color reminiscent of frozen polar water.
 
 Used for UI elements that should, next to the primary accent color nord8, stand out and get more visual attention. */
-  nord7: '#8fbcbb',
+  nord7: "#8fbcbb",
 
   /**
    * nord8
@@ -115,7 +115,7 @@ The bright and shiny primary accent color reminiscent of pure and clear ice.
 
 Used for primary UI elements with main usage purposes that require the most visual attention.
    */
-  nord8: '#88c0d0',
+  nord8: "#88c0d0",
 
   /**
    * nord9
@@ -124,7 +124,7 @@ A more darkened and less saturated color reminiscent of arctic waters.
 
 Used for secondary UI elements that also require more visual attention than other elements.
    */
-  nord9: '#81a1c1',
+  nord9: "#81a1c1",
 
   /**
    * nord10
@@ -133,7 +133,7 @@ A dark and intensive color reminiscent of the deep arctic ocean.
 
 Used for tertiary UI elements that require more visual attention than default elements.
    */
-  nord10: '#5e81ac',
+  nord10: "#5e81ac",
 };
 
 /**
@@ -147,33 +147,33 @@ export const aurora = {
 
 Used for UI elements that are rendering error states like linter markers and the highlighting of Git diff deletions.
    */
-  nord11: '#bf616a',
+  nord11: "#bf616a",
 
   /**
    * nord12
 
 Rarely used for UI elements, but it may indicate a more advanced or dangerous functionality.
    */
-  nord12: '#d08770',
+  nord12: "#d08770",
 
   /**
    * nord13
 
 Used for UI elements that are rendering warning states like linter markers and the highlighting of Git diff modifications.
    */
-  nord13: '#ebcb8b',
+  nord13: "#ebcb8b",
 
   /**
    * nord14
 
 Used for UI elements that are rendering success states and visualizations and the highlighting of Git diff additions.
    */
-  nord14: '#a3be8c',
+  nord14: "#a3be8c",
 
   /**
    * nord15
 
 Rarely used for UI elements, but it may indicate a more uncommon functionality.
    */
-  nord15: '#b48ead',
+  nord15: "#b48ead",
 };

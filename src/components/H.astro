@@ -6,10 +6,10 @@ export interface Props {
 const { main = false } = Astro.props;
 ---
 {main?
-<h1 class="text-3xl font-bold text-nord-text-primary">
+<h1 class="text-3xl font-bold text-nord-h1">
     <slot />
 </h1> :
-<h2 class="text-xl font-semibold text-nord-text-primary">
+<h2 class="text-xl font-semibold text-nord-h2">
     <slot />
 </h2> 
 }
